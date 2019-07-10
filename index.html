@@ -108,14 +108,17 @@
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
               <h3 class="mb-0">Software Engineer</h3>
-              <div class="subheading mb-3"><a href="https://www.rakuten.co.jp/">Rakuten Inc.</a></div>
+              <div class="subheading mb-3"><a href="https://www.rakuten.co.jp/" target="_blank">Rakuten Inc.</a></div>
               <p>
                 <ul>
-                  <li>Worked on the migration of platform from Symphony to Laravel where I mostly focused on modifying the platform architecture and reduce its complexity.</li>
-                  <li>Adopting micro services architecture for a monolithic application.</li>
-                  <li>Modularized the platform and heavily used packages to extracting the business logic and core functionality. </li>
-                  <li>Created chatbots on top of NodeJs for simplifying the development process.</li>
-                  <li><i>Java, Spring boot, PHP, Laravel, Mysql, JavaScript</i></li>
+                  <li>Building <b>micro-services</b> for an existing monolithic application using a custom framework built on top of spring boot. This includes adding support for the migration of existing services without affecting performance. </li>
+                  <li>Building event-driven architecture using <b>Kafka</b> as a message broker. This helped to reduce the service delay.</li>
+                  <li>Creating background jobs using <b>spring batch</b> framework to perform the heavy tasks of migration.</li>
+                  <li>Modularized the platform and heavily used packages to extract the business logic and core functionality.</li>
+                  <li>Handling the deployments of <b>docker</b> images of services through API catalog built over the Kong API gateway.</li>
+                  <li>Migrated an existing Symfony application to Laravel framework. Reduced codebase complexity by reducing layers.</li>
+                  <li>Adapted eloquent as an ORM in existing application alongside Laravel.</li>
+                  <li><i>Java, Spring Boot, Spring Batch, PHP, Node.js, MySQL, PostgreSQL, Kafka, Redis, Docker</i></li>
                 </ul>
               </p>
             </div>
@@ -126,15 +129,17 @@
 
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
-              <h3 class="mb-0">Full Stack Developer</h3>
-              <div class="subheading mb-3"><a href="https://www.amuratech.com/">Amuratech</a></div>
+              <h3 class="mb-0">Software Engineer</h3>
+              <div class="subheading mb-3"><a href="https://www.amuratech.com/" target="_blank">Amuratech</a></div>
               <p>
                 <ul>
-                  <li>Developer for Amura-Advertise, a platform used for automation of Google AdWords & Facebook Advertisement platforms in team of 4.</li>
-                  <li>Worked on advertising API provided by publishers to sync ad structure to automate ad building.</li>
-                  <li>Created a statistical reporting framework for platform to provide in-depth insights into campaign performance.</li>
-                  <li>Maintained advertise reporting data consistency throughout database to have consistent behaviors across system.</li>
-                  <li><i>Ruby on Rails , JavaScript, BackboneJs, MarionetteJs, MongoDB, Sidekiq, Redis </i></li>
+                  <li>Developer for Advertise.do, a platform for automation of advertisements across multiple publishers including Adword and Facebook in a team of 5.</li>
+                  <li>Built multiple ad services on top of <b>Facebook's Graph API and Google's Adwords API</b>.</li>
+                  <li>Built <b>A/B testing framework</b> for analyzing ad/campaign performance across publishers.</li>
+                  <li>Built a statistical reporting framework for the platform to provide in-depth insights into campaign performance.</li>
+                  <li>Maintained advertise reporting data consistency throughout the database to have consistent behaviors across the system.</li>
+                  <li>Built custom charts from nvd3.js for campaign performance data representation.</li>
+                  <li><i>Ruby on Rails, JavaScript, BackboneJs, MarionetteJs, MongoDB, Sidekiq, Redis, Nvd3.js</i></li>
                 </ul>
               </p>
             </div>
@@ -146,11 +151,11 @@
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
               <h3 class="mb-0">Engineering Intern</h3>
-              <div class="subheading mb-3"><a href="https://www.amuratech.com/">Amuratech</a></div>
+              <div class="subheading mb-3"><a href="https://www.amuratech.com/" target="_blank">Amuratech</a></div>
               <p>
                 <ul>
                   <li>Created a working prototype model for optimized Funnel Analysis for any given event stream.</li>
-                  <li>Used Neo4j graph database to build relation between user and activities.</li>
+                  <li>Used <b>Neo4j graph database</b> to build relation between user and activities.</li>
                   <li><i>Ruby on Rails, Neo4j</i></li>
                 </ul>
               </p>
@@ -250,6 +255,9 @@
               <img src="img/redis.png" style="max-width: 48px; max-height: 48px" title="Redis">
             </li>
             <li class="list-inline-item">
+              <img src="img/kafka.png" style="max-width: 48px; max-height: 48px" title="Kafka">
+            </li>
+            <li class="list-inline-item">
               <img src="img/aws.png" style="max-width: 48px; max-height: 48px" title="AWS">
             </li>
             <li class="list-inline-item">
@@ -271,6 +279,9 @@
 
           <div class="subheading mb-3">Expertise</div>
           <ul class="fa-ul mb-0">
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Microservices Architecture</li>
             <li>
               <i class="fa-li fa fa-check"></i>
               Building product from scratch</li>
@@ -297,8 +308,9 @@
               <div class="subheading mb-3">Easing Companies Development Workflow</div>
               <p>
                 <ul>
-                  <li>A project mainly focus on simplifying the development work ow. It make easy the new comers on-boarding process.</li>
-                  <li>App continuously listen for updates from company's Trello board. On every update, it run set of prede ned rules against the Trello card. If card doesn't ful ll the standard, it notify the user on slack channel.</li>
+                  <li>Built a platform to simplify the development workflow of companies. The platform continuously listens for updates from the company's Trello board. On every update, it runs a set of predefined rules against a card. If a card doesn't fulfill the standard, it notifies the user on a slack channel.</li>
+                  <li>It also makes the on-boarding process of newcomers, easy.</li>
+                  <li>Several companies adopted this system and simplified their process.</li>
                   <li><i>Node.js, Express.js, MongoDB</i></li>
                 </ul>
               </p>
@@ -311,9 +323,8 @@
               <div class="subheading mb-3">Personal Assistant for Desktop Systems</div>
               <p>
                 <ul>
-                  <li>A personal assistant to improve user productivity by suggesting/initiating actions according to user behavior.</li>
-                  <li>It looks over user activity when he/she interacts with the device and based upon these activities, it builds personalized usage pro le of the user.</li>
-                  <li>It understands user behavior, to automate the activity initiation so that users dont have to perform his/her daily repetitive tasks like start server, playing music, launching software with speci c preferences, typing repetitive commands etc. </li>
+                  <li>Built a personal assistant to improve user productivity by suggesting/initiating actions according to user behavior.</li>
+                  <li>It looks over user activity when he/she interacts with the device and based upon these activities, it builds personalized usage profile of the user. This profile helps to automate the repetitive tasks of users.</li>
                   <li><i>Ruby, ZeitGeist Ubuntu daemon, Neo4j</i></li>
                 </ul>
               </p>
@@ -326,9 +337,8 @@
               <div class="subheading mb-3">A Desktop File Search Engine</div>
               <p>
                 <ul>
-                  <li>A google like search engine for Desktops which allows user to search through his entire file systems in more generic queries like -list of files yesterday, videos played in last two days, list of files edited in last week etc.</li>
-                  <li>User can also search on the basis of content of files, type of files. </li>
-                  <li>Python, MongoDB, pynotify</li>
+                  <li>Built a file search engine inspired by the spotlight of macOS for the Linux based systems. It allows a user to search through file systems in natural language. A user can also search on the basis of the content of files, type of files. </li>
+                  <li><i>Python, MongoDB, Pynotify</i></li>
                 </ul>
               </p>
             </div>
