@@ -70,6 +70,7 @@
             <a href="mailto:name@email.com">amrutjadhav2294@gmail.com</a>
           </div>
           <p class="lead mb-5">A hackathon enthusiast, having experience in leading teams to build highly available and resilient systems. Interested in photography, problem-solving, and traveling.</p>
+          <p class="lead mb-5">Technical Lead with 10+ years building high-scale payments, lending and gig platforms at PhonePe, PayPay and Rakuten. Ships AI in production: RAG agents over vector DBs for on-call alerts, an agentic debugging flow that cut triage from ~2 hours to ~40 seconds, and reusable LLM skills and agents with MCP integration adopted across services. Owns architecture end to end, from underwriting serving PhonePe's full user base to zero-downtime Kubernetes migrations and 99.999% availability. Leads cross-functional delivery with Product, Risk and Compliance.</p>
           <div class="social-icons">
             <a href="https://www.linkedin.com/in/amrutjadhav/" target="_blank">
               <i class="fab fa-linkedin-in"></i>
@@ -108,21 +109,45 @@
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
               <h3 class="mb-0">Technical Lead</h3>
+              <div class="subheading mb-3"><a href="https://www.phonepe.com/" target="_blank">PhonePe</a></div>
+              <p>
+                <ul>
+                  <li>Built a black-box offer underwriting system from scratch on closed infra, extending lending from a limited user subset to PhonePe's entire user base — cut offer generation per user from <b>~10 days to milliseconds</b> and made lending BCP-ready.</li>
+                  <li>Embedded compliance and security controls into the black-box offer pipeline, enabling scale without compromising regulatory or security posture.</li>
+                  <li>Led service-level migration to decouple core offer generation from experimentation, unlocking independent product experiments and cutting go-live TAT for new experiments.</li>
+                  <li>Built an agentic debugging flow for offer generation, reducing issue triage from <b>~2 hours to ~40 seconds</b>.</li>
+                  <li>Building RAG-based agents for on-call alerts to cut false positives, speed up root-causing, and guide new engineers to the right starting point.</li>
+                  <li>Led adoption of LLM-assisted development across services — structured context for LLMs and MCP integration to reduce token usage.</li>
+                  <li>Drove cross-functional alignment with Product, Risk, Compliance, and lending partners.</li>
+                  <li><i>Java, Dropwizard, Kafka, RabbitMQ, MariaDB, Aerospike, Vector DBs</i></li>
+                </ul>
+              </p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">June 2024 - Present</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Technical Lead</h3>
               <div class="subheading mb-3"><a href="https://gigindia.in" target="_blank">Gigindia</a></div>
               <p>
                 <ul>
                   <li>Led DevOps initiatives ensuring system stability, scaling infrastructure, and utilizing K8s for auto-scaling and cost reduction. Led overall system architecture design of the platform.</li>
+                  <li>Migrated the whole infrastructure to K8s for auto-scaling and cost reduction.</li>
+                  <li>Established on-call, deployment, and incident-management processes, raising the team to industry-standard engineering practices.</li>
                   <li>Achieved a <b>95%</b> reduction in API response time through multi-threaded architecture and optimized database connectivity. Decreased API issue debugging time by <b>98%</b> with centralized logging storage and integrated log tracing.</li>
                   <li>Elevated system availability from <b>97.95% to 99.99886%</b>.</li>
                   <li>Introduced proactive monitoring and reduced issue detection time by <b>96.67%</b>.</li>
                   <li>Spearheaded security efforts, ensuring regulatory compliance are fulfilled across infrastructure and applications. Implemented a standardized framework for service stabilization. Aligned the whole team to utilize the same for development. Orchestrated end-to-end deployment automation via CI/CD pipelines.</li>
                   <li><b>Nurtured a culture of innovation, continuous learning </b>, and ownership within the team.</li>
-                  <li><i>Django, Flask, FastAPI, Dropwizard, React.js, Python, Java, JS, Postgres, MariaDB, Celery with RaabbitMQ, AWS, Terraform</i></li>
+                  <li><i>Django, Flask, FastAPI, Dropwizard, React.js, Python, Java, JS, Postgres, MariaDB, Celery with RaabbitMQ, Next.js, AWS, Terraform</i></li>
                 </ul>
               </p>
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">August 2021 - Present</span>
+              <span class="text-primary">August 2021 - June 2024</span>
             </div>
           </div>
 
@@ -351,6 +376,19 @@
             </li>
           </ul>
 
+          <div class="subheading mb-3">More Databases, Frameworks &amp; DevOps</div>
+          <ul class="list-inline">
+            <li class="list-inline-item"><p class="lead">MariaDB</p></li>
+            <li class="list-inline-item"><p class="lead">Postgres</p></li>
+            <li class="list-inline-item"><p class="lead">Vector DB</p></li>
+            <li class="list-inline-item"><p class="lead">Dropwizard</p></li>
+            <li class="list-inline-item"><p class="lead">Django</p></li>
+            <li class="list-inline-item"><p class="lead">FastAPI</p></li>
+            <li class="list-inline-item"><p class="lead">GCP</p></li>
+            <li class="list-inline-item"><p class="lead">K8s</p></li>
+            <li class="list-inline-item"><p class="lead">CI-CD Workflows</p></li>
+          </ul>
+
           <div class="subheading mb-3">Expertise</div>
           <ul class="fa-ul mb-0">
             <li>
@@ -368,6 +406,9 @@
             <li>
               <i class="fa-li fa fa-check"></i>
               Agile Development &amp; Scrum</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              AI agents, RAG &amp; MCP integration</li>
           </ul>
         </div>
       </section>
@@ -375,6 +416,20 @@
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="projects">
         <div class="my-auto">
           <h2 class="mb-5">Projects</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0"><a href="https://tools.hackhenry.com" target="_blank">HackHenry Tools</a></h3>
+              <div class="subheading mb-3">Privacy-first Developer Tools</div>
+              <p>
+                <ul>
+                  <li>Built a privacy-first suite of <b>100+</b> browser-based developer tools to keep PhonePe engineering compliant, letting teams format and decode payloads, tokens and logs without exposing sensitive data to third-party sites that store input.</li>
+                  <li>Fully client-side processing; inputs never leave the device, no sign-up, preferences stored locally.</li>
+                  <li><i>Node.js, Express.js</i></li>
+                </ul>
+              </p>
+            </div>
+          </div>
 
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
